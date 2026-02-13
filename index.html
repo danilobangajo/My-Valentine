@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💕</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background Hearts -->
+    <div class="hearts-background">
+        <div class="bg-heart">💕</div>
+        <div class="bg-heart">💖</div>
+        <div class="bg-heart">💗</div>
+        <div class="bg-heart">💝</div>
+        <div class="bg-heart">💕</div>
+        <div class="bg-heart">💖</div>
+        <div class="bg-heart">💗</div>
+        <div class="bg-heart">💝</div>
+        <div class="bg-heart">💕</div>
+        <div class="bg-heart">💖</div>
+    </div>
+    
+    <!-- Envelope Section -->
+    <div id="envelopeSection" class="section active">
+        <!-- Decorative Tulips -->
+        <svg class="tulip tulip-left-1" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+        </svg>
+        <svg class="tulip tulip-left-2" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff1493" opacity="0.9"/>
+            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff1493" opacity="0.9"/>
+        </svg>
+        <svg class="tulip tulip-right-1" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 180 Q55 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+        </svg>
+        <svg class="tulip tulip-right-2" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 180 Q55 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff1493" opacity="0.9"/>
+            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff1493" opacity="0.9"/>
+        </svg>
+        
+        <div class="container">
+            <h1 class="text-center mb-5 fade-in">You've Got Mail 💌</h1>
+            <div class="envelope-wrapper" id="envelopeWrapper">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-back"></div>
+                    <div class="envelope-front"></div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-card" id="envelopeCard">
+                        <div class="card-content">
+                            <h2>❤️</h2>
+                            <p>Click to open</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Question Card (appears from envelope) -->
+                <div class="question-card" id="questionCard">
+                    <div class="tulip-decoration">
+                        <svg class="tulip-small" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+                            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+                        </svg>
+                        <svg class="tulip-small" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff1493" opacity="0.9"/>
+                            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+                            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+                            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff1493" opacity="0.9"/>
+                        </svg>
+                        <svg class="tulip-small" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+                            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+                        </svg>
+                    </div>
+                    <h1 class="question-title">Will You Be My Valentine?</h1>
+                    <div class="hearts-animation">
+                        <span class="heart">💕</span>
+                        <span class="heart">💖</span>
+                        <span class="heart">💗</span>
+                        <span class="heart">💝</span>
+                    </div>
+                    <div class="button-group">
+                        <button class="btn btn-yes" id="btnYes">Yes! 💕</button>
+                        <button class="btn btn-no" id="btnNo">No 😢</button>
+                    </div>
+                    <div class="tulip-decoration tulip-bottom">
+                        <svg class="tulip-small" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+                            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+                        </svg>
+                        <svg class="tulip-small" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff1493" opacity="0.9"/>
+                            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+                            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+                            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff1493" opacity="0.9"/>
+                        </svg>
+                        <svg class="tulip-small" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+                            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Broken Heart Section -->
+    <div id="brokenHeartSection" class="section">
+        <div class="container text-center">
+            <div class="broken-heart-animation">
+                <div class="heart-left">💔</div>
+                <div class="heart-right"></div>
+            </div>
+            <h2 class="mt-4 sad-text">Aray mo! 🤦‍♂️</h2>
+            <p class="sad-message">Wrong answer! Try again! 🎁</p>
+            <button class="btn btn-retry mt-4" id="btnRetry">Try Again?</button>
+        </div>
+    </div>
+
+    <!-- Letter Section -->
+    <div id="letterSection" class="section">
+        <!-- Decorative Tulips for Letter Section -->
+        <svg class="tulip tulip-letter-left" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+        </svg>
+        <svg class="tulip tulip-letter-right" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 180 Q55 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+            <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff1493" opacity="0.9"/>
+            <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+            <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+            <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff1493" opacity="0.9"/>
+        </svg>
+        
+        <button class="back-button" id="backButton">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            Back to Envelope
+        </button>
+        <div class="container">
+            <div class="love-letter">
+                <div class="tulip-header">
+                    <svg class="tulip-accent" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                        <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+                        <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                        <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                        <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+                    </svg>
+                    <svg class="tulip-accent" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                        <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff1493" opacity="0.9"/>
+                        <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+                        <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff69b4" opacity="0.8"/>
+                        <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff1493" opacity="0.9"/>
+                    </svg>
+                    <svg class="tulip-accent" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 180 Q45 120 50 80" stroke="#2d5016" stroke-width="3" fill="none"/>
+                        <ellipse cx="50" cy="40" rx="20" ry="35" fill="#ff69b4" opacity="0.9"/>
+                        <ellipse cx="35" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                        <ellipse cx="65" cy="50" rx="18" ry="32" fill="#ff1493" opacity="0.8"/>
+                        <ellipse cx="50" cy="55" rx="15" ry="28" fill="#ff69b4" opacity="0.9"/>
+                    </svg>
+                </div>
+                <h2 class="letter-header">My Dearest Anna Liza,</h2>
+                <div class="letter-body">
+                    <p>From the moment I met you, my life has been filled with joy, laughter, and endless love. You are the sunshine that brightens my darkest days and the reason I smile every morning.</p>
+                    
+                    <p>Every moment spent with you is a treasure I hold close to my heart. Your kindness, your beauty, and your amazing spirit make me fall in love with you more and more each day.</p>
+                    
+                    <p>This Valentine's Day, I want you to know that you mean the world to me. You are my best friend, my partner, and my everything. I am so grateful to have you in my life.</p>
+                    
+                    <p>Thank you for being you, for loving me, and for making every day feel like a celebration of love.</p>
+                    
+                    <p class="signature">Forever yours,<br>Danilo 💕</p>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <p>Scroll down for our memories 👇</p>
+                </div>
+            </div>
+
+            <!-- Photo Album -->
+            <div class="photo-album mt-5">
+                <h3 class="album-title text-center mb-4">Our Beautiful Moments Together 📸</h3>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="photo-frame">
+                            <img src="swee.jpg" alt="Our Memory 1" class="photo-img">
+                            <div class="photo-caption">Forever in my heart</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="photo-frame">
+                            <img src="2nd.jpeg" alt="Our Memory 2" class="photo-img">
+                            <div class="photo-caption">My favorite person</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="final-message text-center mt-5">
+                    <h2>I Love You, Anna Liza! ❤️</h2>
+                    <p>Happy Valentine's Day 2026</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
